@@ -28,8 +28,7 @@ function GameUserInputScreen({ handleUserNumber }) {
   return (
     <View style={styles.main}>
       <View style={styles.staticHeading}>
-        {/* <Text style={styles.staticHeadingText}>Let's Play</Text> */}
-        <GameLogo />
+        <Text style={styles.staticHeadingText}>Let's Play</Text>
       </View>
       <View style={styles.GuessInput}>
         <View style={styles.GuessInputMain}>
@@ -54,6 +53,7 @@ function GameUserInputScreen({ handleUserNumber }) {
           </CustomButton>
         </View>
       </View>
+      <GameLogo />
     </View>
   );
 }
